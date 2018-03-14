@@ -1,0 +1,5 @@
+lib/**
+typescript/dist/**
+typescript/node_modules/**
+
+TutorEngineOne.code-workspace
