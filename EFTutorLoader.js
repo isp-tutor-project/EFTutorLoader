@@ -27,7 +27,7 @@ p._updateVisibility = _updateVisibility;
 
 
 // stage content:
-(lib.EFTutorBase = function(mode,startPosition,loop) {
+(lib.EFTutorLoader = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{START:0});
 
 	// timeline functions:
