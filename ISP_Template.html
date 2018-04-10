@@ -16,16 +16,28 @@
 <!-- write your code here -->
 $CENTER_STYLE
 $CREATEJS_LIBRARY_SCRIPTS
+<!--script src="https://code.createjs.com/createjs-2015.11.26.combined.js"></script-->
 <!--
 	require.js will use the value of the 'data-main' attribute in the following
-	script tag to load 'browser/app.js' after require.js itself loads.
+	script tag to load '../EFTutorEngineOne/lib/engine.js' after require.js itself loads.
 	NOTE: requireJS must load after createJS or you will receive error:
 	MISMATCHED ANONYMOUS DEFINE() MODULES
 
 	If further easel etc problems see:
 	https://github.com/CreateJS/EaselJS/wiki/Using-easeljs-and-tweenjs-with-requirejs
 -->    
-<script data-main="../EFTutorEngineOne/lib/engine" type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.1/require.min.js"></script>
+
+<!-- Load the SystemJS module loader and the tutor engine module -->
+<script src="./node_modules/systemjs/dist/system.js"></script>
+<script src="./dist/tutorengineone.js"></script>
+
+<!-- Load the module containing the engine boot routines they will wait for the
+	 createJS preload to complete and the tutorEngine component to initialize  -->
+<script>
+  System.import('TutorEngineOne').then(function(engine){
+	engine.start();
+  });
+</script>
 
 $ANIMATE_CC_SCRIPTS
 $SCRIPT_START

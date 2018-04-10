@@ -3,10 +3,10 @@
           <DOMFolderItem name="____componentassets____" itemID="5a8355eb-0000019c"/>
      </folders>
      <media>
-          <DOMBitmapItem name="____componentassets____/TutorEngine" itemID="5a9daca2-000002d7" sourceLastImported="1512163249" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/TutorEngine.png" bitmapDataHRef="M 1 1521049151.dat" frameLeft="140" frameTop="1720" frameRight="780" frameBottom="2360"/>
+          <DOMBitmapItem name="____componentassets____/TutorEngine" itemID="5acd41c0-000002cd" sourceLastImported="1512163249" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/TutorEngine.png" bitmapDataHRef="M 2 1523401122.dat" frameLeft="140" frameTop="1720" frameRight="780" frameBottom="2360"/>
      </media>
      <symbols>
-          <Include href="TutorEngine.xml" loadImmediate="false" itemID="5a9dac81-000002c1" lastModified="1520282753"/>
+          <Include href="TutorEngine.xml" loadImmediate="false" itemID="5acd4197-000002ba" lastModified="1523401111"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -33,15 +33,18 @@ _this.gotoAndStop('START');
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="TutorEngine" name="Tutor_Engine" uniqueID="1">
+                                        <DOMComponentInstance libraryItemName="TutorEngine" uniqueID="1">
                                              <matrix>
-                                                  <Matrix tx="20.05" ty="17"/>
+                                                  <Matrix tx="17" ty="15.05"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="50" y="50"/>
                                              </transformationPoint>
                                              <parametersAsXML><![CDATA[   <property id="compositionID">
-      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="56F39A6311F5D844AEBF8F30335F1249" type="String"/>
+      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="52BBDDD43BDBD64499D685AAA6743D14" type="String"/>
+   </property>
+   <property id="tutorID">
+      <Inspectable name="tutorID" variable="tutorID" category="" verbose="0" defaultValue="ISPLogin" type="String"/>
    </property>
    <property id="__ComponentType__">
       <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
@@ -59,7 +62,7 @@ _this.gotoAndStop('START');
           <GlobalScripts language="Javascript"/>
      </scripts>
      <persistentData>
-          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;false"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory/>

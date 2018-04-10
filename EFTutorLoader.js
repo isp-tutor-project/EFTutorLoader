@@ -44,14 +44,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{STA
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Engine_Injector
-	this.Tutor_Engine = new lib.ef_TutorEngine({'id': 'Tutor_Engine', 'compositionID':'56F39A6311F5D844AEBF8F30335F1249'});
+	this.instance = new lib.ef_TutorEngine({'id': '', 'compositionID':'52BBDDD43BDBD64499D685AAA6743D14', 'tutorID':'ISPLogin'});
 
-	this.Tutor_Engine.setTransform(70.1,67,1,1,0,0,0,50,50);
+	this.instance.setTransform(67,65.1,1,1,0,0,0,50,50);
 
-	this.timeline.addTween(cjs.Tween.get(this.Tutor_Engine).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(294.6,216.5,101,101);
+p.nominalBounds = new cjs.Rectangle(291.5,214.6,101,101);
 // library properties:
 lib.properties = {
 	id: '52BBDDD43BDBD64499D685AAA6743D14',

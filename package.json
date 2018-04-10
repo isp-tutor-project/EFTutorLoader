@@ -1,0 +1,27 @@
+{
+  "name": "EFTutorLoader",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000F\u0000T\u0000u\u0000t\u0000o\u0000r\u0000B\u0000a\u0000s\u0000e\u0000\r\u0000 \u0000",
+  "main": "EFTutorLoader.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdForge/EFTutorLoader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdForge/EFTutorLoader/issues"
+  },
+  "homepage": "https://github.com/EdForge/EFTutorLoader#readme"
+}

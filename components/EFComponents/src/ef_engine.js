@@ -17,13 +17,14 @@
 
 		_createWidget: function( options, element ) {
 
-			$.engine = require("./engine");
-
 			var comp=AdobeAn.getComposition(options.compositionID);
 
 			// Inject a static property pointing to the Animate library.
 			//
-			$.EFLibrary = comp.getLibrary();
+			$.efLibrary = comp.getLibrary();
+			$.rootTutor = options.tutorID;
+			$.options   = options;
+			$.loaded     = true;
 		},		
 		
 		// Add functions required by AnimateCC
