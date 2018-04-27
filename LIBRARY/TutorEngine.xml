@@ -1,4 +1,4 @@
-<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TutorEngine" itemID="5acd4197-000002ba" lastModified="1523401111" displayAsComponent="false" customIconID="0" persistLivePreview11="true" symbolDescription="__HTML5_Component__" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
+<DOMComponentItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="TutorEngine" itemID="5ad62451-000002ba" lastModified="1523983441" displayAsComponent="false" customIconID="0" persistLivePreview11="true" symbolDescription="__HTML5_Component__" editFrameIndex="1" requiredMinimumPlayerVersion="0" requiredMinimumASVersion="0" parametersAreLocked="true">
   <persistentData>
     <PD n="className" v="ef.TutorEngine"/>
     <PD n="htmlURL"/>
@@ -54,16 +54,16 @@
     </DOMTimeline>
   </timeline>
   <parametersAsXML><![CDATA[   <property id="compositionID">
-      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="copy id from init() in Published HTML" type="String"/>
+      <Inspectable name="Composition ID -" variable="compositionID" category="" verbose="0" defaultValue="copy id from init() in Published HTML" type="String"/>
    </property>
-   <property id="tutorID">
-      <Inspectable name="tutorID" variable="tutorID" category="" verbose="0" defaultValue="Enter name of root Tutor" type="String"/>
+   <property id="boottutorID">
+      <Inspectable name="Boot Tutor-Module Name -" variable="boottutorID" category="" verbose="0" defaultValue="Name of Boot Tutor-Module" type="String"/>
    </property>
    <property id="__ComponentType__">
       <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
    </property>
 ]]></parametersAsXML>
   <customIcon>
-    <CustomIcon rowByteCount="128" colorDepth="32" width="32" height="32" frameRight="640" frameBottom="640" isTransparent="true" href="hzh76zrtp.dat"/>
+    <CustomIcon rowByteCount="128" colorDepth="32" width="32" height="32" frameRight="640" frameBottom="640" isTransparent="true" href="kl8pe7c95p.dat"/>
   </customIcon>
 </DOMComponentItem>

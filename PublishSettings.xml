@@ -12,8 +12,8 @@
     <publishFormat id="C6B9CB0C-C6DC-4FBC-9805-93E9EB37A444">1</publishFormat>
   </PublishFormatProperties>
   <PublishJpegProperties enabled="true">
-    <Width>550</Width>
-    <Height>400</Height>
+    <Width>1920</Width>
+    <Height>1200</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -21,8 +21,8 @@
     <MatchMovieDim>1</MatchMovieDim>
   </PublishJpegProperties>
   <PublishOamProperties enabled="true">
-    <Width>550</Width>
-    <Height>400</Height>
+    <Width>1920</Width>
+    <Height>1200</Height>
     <CurrentFramePNG>1</CurrentFramePNG>
     <CustomPNG>0</CustomPNG>
     <PNGFilePath></PNGFilePath>
@@ -45,7 +45,7 @@
     <Property name="compactPaths">true</Property>
     <Property name="componentsPath">components/</Property>
     <Property name="createjsNS">createjs</Property>
-    <Property name="default">false</Property>
+    <Property name="default">true</Property>
     <Property name="embedJS">false</Property>
     <Property name="exportAsSpritesheet">true</Property>
     <Property name="exportHTML">true</Property>
@@ -55,7 +55,7 @@
     <Property name="exportLibsToFolder">true</Property>
     <Property name="exportSounds">true</Property>
     <Property name="exportSoundsToFolder">true</Property>
-    <Property name="filename">./EFTutorLoader/EFTutorLoader.js</Property>
+    <Property name="filename">EFTutorLoader.js</Property>
     <Property name="frameBounds">false</Property>
     <Property name="hostedLibs">true</Property>
     <Property name="imageFormat">0</Property>

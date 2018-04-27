@@ -17,24 +17,10 @@
 $CENTER_STYLE
 $CREATEJS_LIBRARY_SCRIPTS
 <!--script src="https://code.createjs.com/createjs-2015.11.26.combined.js"></script-->
-<!--
-	require.js will use the value of the 'data-main' attribute in the following
-	script tag to load '../EFTutorEngineOne/lib/engine.js' after require.js itself loads.
-	NOTE: requireJS must load after createJS or you will receive error:
-	MISMATCHED ANONYMOUS DEFINE() MODULES
-
-	If further easel etc problems see:
-	https://github.com/CreateJS/EaselJS/wiki/Using-easeljs-and-tweenjs-with-requirejs
--->    
-
+<!-- Load the SystemJS module loader and the tutor engine module -->
 <script src="./node_modules/systemjs/dist/system.js"></script>
-<script src="./dist/tutorengineone.js"></script>
-
-<script>
-  System.import('TutorEngineOne').then(function(engine){
-	engine.start();
-  });
-</script>
+<script src="https://cdn.jsdelivr.net/npm/json5@1.0.1/dist/index.min.js"></script>
+<script src="./dist/TutorEngineOne.js"></script>
 
 $ANIMATE_CC_SCRIPTS
 $SCRIPT_START

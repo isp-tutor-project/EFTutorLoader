@@ -1,12 +1,12 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 115" majorVersion="18" buildNumber="115" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="52BBDDD43BDBD64499D685AAA6743D14">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1920" height="1200" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 115" majorVersion="18" buildNumber="115" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="52BBDDD43BDBD64499D685AAA6743D14">
      <folders>
           <DOMFolderItem name="____componentassets____" itemID="5a8355eb-0000019c"/>
      </folders>
      <media>
-          <DOMBitmapItem name="____componentassets____/TutorEngine" itemID="5acd41c0-000002cd" sourceLastImported="1512163249" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/TutorEngine.png" bitmapDataHRef="M 2 1523401122.dat" frameLeft="140" frameTop="1720" frameRight="780" frameBottom="2360"/>
+          <DOMBitmapItem name="____componentassets____/TutorEngine" itemID="5ad6251e-000002ce" sourceLastImported="1512163249" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/TutorEngine.png" bitmapDataHRef="M 2 1523983456.dat" frameLeft="140" frameTop="1720" frameRight="780" frameBottom="2360"/>
      </media>
      <symbols>
-          <Include href="TutorEngine.xml" loadImmediate="false" itemID="5acd4197-000002ba" lastModified="1523401111"/>
+          <Include href="TutorEngine.xml" loadImmediate="false" itemID="5ad62451-000002ba" lastModified="1523983441"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -33,18 +33,18 @@ _this.gotoAndStop('START');
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="TutorEngine" uniqueID="1">
+                                        <DOMComponentInstance libraryItemName="TutorEngine" name="STutorEngine" uniqueID="1">
                                              <matrix>
-                                                  <Matrix tx="17" ty="15.05"/>
+                                                  <Matrix tx="910" ty="550"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="50" y="50"/>
                                              </transformationPoint>
                                              <parametersAsXML><![CDATA[   <property id="compositionID">
-      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="52BBDDD43BDBD64499D685AAA6743D14" type="String"/>
+      <Inspectable name="Composition ID -" variable="compositionID" category="" verbose="0" defaultValue="52BBDDD43BDBD64499D685AAA6743D14" type="String"/>
    </property>
-   <property id="tutorID">
-      <Inspectable name="tutorID" variable="tutorID" category="" verbose="0" defaultValue="ISPLogin" type="String"/>
+   <property id="boottutorID">
+      <Inspectable name="Boot Tutor-Module Name -" variable="boottutorID" category="" verbose="0" defaultValue="Std_Login" type="String"/>
    </property>
    <property id="__ComponentType__">
       <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
