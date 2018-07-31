@@ -33,7 +33,7 @@ _this.gotoAndStop('START');
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMComponentInstance libraryItemName="TutorEngine" name="STutorEngine" uniqueID="1">
+                                        <DOMComponentInstance libraryItemName="TutorEngine" name="STutorEngine" selected="true" uniqueID="1">
                                              <matrix>
                                                   <Matrix tx="910" ty="550"/>
                                              </matrix>
@@ -44,7 +44,7 @@ _this.gotoAndStop('START');
       <Inspectable name="Composition ID -" variable="compositionID" category="" verbose="0" defaultValue="52BBDDD43BDBD64499D685AAA6743D14" type="String"/>
    </property>
    <property id="boottutorID">
-      <Inspectable name="Boot Tutor-Module Name -" variable="boottutorID" category="" verbose="0" defaultValue="Std_Login" type="String"/>
+      <Inspectable name="Boot Tutor-Module Name -" variable="boottutorID" category="" verbose="0" defaultValue="EFCode_Test" type="String"/>
    </property>
    <property id="__ComponentType__">
       <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
